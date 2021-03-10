@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westus"
+        },
+        "networkInterfaceName": {
+            "value": "blogvm296"
+        },
+        "subnetName": {
+            "value": "MyVmSubnet"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/d6b61788-279a-4247-893f-c5a213b81a30/resourceGroups/learn-0d8c62ec-d60f-4e8f-a8d1-1d6b3ec103cd/providers/Microsoft.Network/virtualNetworks/MyVmVNET"
+        },
+        "publicIpAddressName": {
+            "value": "Blogvm-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Standard"
+        },
+        "virtualMachineName": {
+            "value": "Blogvm"
+        },
+        "virtualMachineComputerName": {
+            "value": "Blogvm"
+        },
+        "virtualMachineRG": {
+            "value": "learn-0d8c62ec-d60f-4e8f-a8d1-1d6b3ec103cd"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "auser"
+        },
+        "adminPassword": {
+            "value": null
+        }
+    }
+}
