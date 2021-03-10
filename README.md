@@ -1,0 +1,1 @@
+# ARM_template_for_linux_vm
